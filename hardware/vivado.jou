@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 24 10:30:17 2023
+# Process ID: 3352
+# Current directory: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5888
+# Log file: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/impl_1/design_1_wrapper.sysdef C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+archive_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr.zip -temp_dir C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04 -force -include_local_ip_cache -include_config_settings
+close_project
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+close_project
+open_project C:/Users/andarala/Desktop/ECE_315/tutorial/lab_0.xpr
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.xpr
+update_compile_order -fileset sources_1
+save_project_as lab_1_hw_platform C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_hw_platform -force
+import_files
+archive_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_hw_platform.xpr.zip -temp_dir C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04 -force -include_local_ip_cache -include_config_settings

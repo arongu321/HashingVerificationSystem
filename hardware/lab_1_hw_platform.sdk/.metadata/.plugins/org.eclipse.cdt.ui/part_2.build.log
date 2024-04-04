@@ -1,0 +1,36 @@
+10:33:53 **** Auto Build of configuration Debug for project part_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab_1_part_2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab_1_part_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../part_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab_1_part_2.d" -MT"src/lab_1_part_2.o" -o "src/lab_1_part_2.o" "../src/lab_1_part_2.c"
+../src/lab_1_part_2.c: In function 'commandTask':
+../src/lab_1_part_2.c:263:15: warning: unused variable 'commandValue' [-Wunused-variable]
+  unsigned int commandValue=0, buttonVal=0;
+               ^~~~~~~~~~~~
+../src/lab_1_part_2.c: In function 'RGBLedTask':
+../src/lab_1_part_2.c:311:24: warning: unused variable 'RGBSetting' [-Wunused-variable]
+  char receivedSetting, RGBSetting='1';
+                        ^~~~~~~~~~
+'Finished building: ../src/lab_1_part_2.c'
+' '
+'Building file: ../src/pmodkypd.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pmodkypd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../part_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pmodkypd.d" -MT"src/pmodkypd.o" -o "src/pmodkypd.o" "../src/pmodkypd.c"
+'Finished building: ../src/pmodkypd.c'
+' '
+'Building target: part_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../part_2_bsp/ps7_cortexa9_0/lib -o "part_2.elf"  ./src/lab_1_part_2.o ./src/pmodkypd.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: part_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size part_2.elf  |tee "part_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83500	   3432	  89520	 176452	  2b144	part_2.elf
+'Finished building: part_2.elf.size'
+' '
+
+10:33:55 Build Finished (took 1s.120ms)
+

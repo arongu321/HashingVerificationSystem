@@ -1,0 +1,206 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 24 10:30:17 2023
+# Process ID: 3352
+# Current directory: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5888
+# Log file: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/andarala/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save'
+WARNING: [Board 49-91] Board repository path 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store' does not exist, it will not be used to search board files.
+INFO: [Project 1-313] Project file moved from 'C:/Users/ecetech/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20820-TECH-C98I8JRGUQ/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 723.316 ; gain = 73.535
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Nov 24 10:35:00 2023] Launched design_1_processing_system7_0_0_synth_1, design_1_rst_ps7_0_50M_0_synth_1, design_1_axi_gpio_2_0_synth_1, design_1_axi_gpio_1_0_synth_1, design_1_axi_gpio_0_0_synth_1, design_1_xbar_0_synth_1, design_1_axi_gpio_1_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_rst_ps7_0_50M_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_rst_ps7_0_50M_0_synth_1/runme.log
+design_1_axi_gpio_2_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_axi_gpio_2_0_synth_1/runme.log
+design_1_axi_gpio_1_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_axi_gpio_1_0_synth_1/runme.log
+design_1_axi_gpio_0_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_axi_gpio_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_xbar_0_synth_1/runme.log
+design_1_axi_gpio_1_1_synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/design_1_axi_gpio_1_1_synth_1/runme.log
+synth_1: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/synth_1/runme.log
+[Fri Nov 24 10:35:02 2023] Launched impl_1...
+Run output will be captured here: C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 735.758 ; gain = 4.855
+file copy -force C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.runs/impl_1/design_1_wrapper.sysdef C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+archive_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr.zip -temp_dir C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04 -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04' for archiving project
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_full_archive/lab_1_full_save'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_processing_system7_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_rst_ps7_0_50M_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xbar_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_1_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_50M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 793.320 ; gain = 37.949
+close_project
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save'
+INFO: [Project 1-313] Project file moved from 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk -hwspec C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+close_project
+open_project C:/Users/andarala/Desktop/ECE_315/tutorial/lab_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+open_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/lab_1_full_save.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save'
+INFO: [Project 1-313] Project file moved from 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+save_project_as lab_1_hw_platform C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_hw_platform -force
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+WARNING: [filemgmt 20-354] The following file(s) were not imported. Local copy of file(s) already exists:
+C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_clean_archive.xpr/lab_1_full_save/archive_project_summary.txt
+Hint: use the '-force' option to overwrite the local copies.
+archive_project C:/Users/andarala/Desktop/ECE_315/lab_1/lab_1_resources/lab_1_hw_platform.xpr.zip -temp_dir C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04 -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/andarala/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3352-e5-01-04/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_processing_system7_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_rst_ps7_0_50M_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xbar_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_gpio_1_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_50M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps7_0_50M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

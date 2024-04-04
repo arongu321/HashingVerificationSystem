@@ -1,0 +1,28 @@
+10:32:59 **** Auto Build of configuration Debug for project lab_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/pmodkypd.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pmodkypd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pmodkypd.d" -MT"src/pmodkypd.o" -o "src/pmodkypd.o" "../src/pmodkypd.c"
+'Finished building: ../src/pmodkypd.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/ps7_cortexa9_0/lib -o "lab_1.elf"  ./src/main.o ./src/pmodkypd.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81292	   3432	  89456	 174180	  2a864	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+
+10:33:00 Build Finished (took 1s.69ms)
+
